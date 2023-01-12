@@ -1,5 +1,12 @@
 This will be a space to lay out the logistics while I'm working on this project
 
+Term Clarification:
+    -Symbols are the tiles on the reels of the slots
+    -Items are the bonus items dropped by the ruins, and are 'collected' on the side of the machine. 
+    -Sticky Wilds: the symbol lands and 'sticks' in that spot. When the slot is rolled again, it moved vertically one space down and if it moves off the board is gone.
+    -Prime spins are discounted spins
+    -Picking game is a bonus game that lets you select something and gives you a prize off of it, typically payout is on average the same as what the spin would have been worth, example if the spin would have been calculated as 30 payout, the game averages a 30 payout. The base payout of the symbols doesn't matter when the game is complete, just a good way to calculate how much a bonus game should pay out. 
+
 Ideals
 * Moving reels that can be stopped on button click
 * Scoring system like a real slot machine
