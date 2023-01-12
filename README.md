@@ -1,11 +1,11 @@
 This will be a space to lay out the logistics while I'm working on this project
 
 Term Clarification:
-    -Symbols are the tiles on the reels of the slots
-    -Items are the bonus items dropped by the ruins, and are 'collected' on the side of the machine. 
-    -Sticky Wilds: the symbol lands and 'sticks' in that spot. When the slot is rolled again, it moved vertically one space down and if it moves off the board is gone.
-    -Prime spins are discounted spins
-    -Picking game is a bonus game that lets you select something and gives you a prize off of it, typically payout is on average the same as what the spin would have been worth, example if the spin would have been calculated as 30 payout, the game averages a 30 payout. The base payout of the symbols doesn't matter when the game is complete, just a good way to calculate how much a bonus game should pay out. 
+   <br>-Symbols are the tiles on the reels of the slots</br> 
+   <br>-Items are the bonus items dropped by the ruins, and are 'collected' on the side of the machine.</br>
+   <br>-Sticky Wilds: the symbol lands and 'sticks' in that spot. When the slot is rolled again, it moved vertically one space down and if it moves off the board is gone.</br>
+   <br>-Prime spins are discounted spins</br>
+   <br> -Picking game is a bonus game that lets you select something and gives you a prize off of it, typically payout is on average the same as what the spin would have been worth, example if the spin would have been calculated as 30 payout, the game averages a 30 payout. The base payout of the symbols doesn't matter when the game is complete, just a good way to calculate how much a bonus game should pay out.</br> 
 
 Ideals
 * Moving reels that can be stopped on button click
@@ -14,36 +14,36 @@ Ideals
 * Free or prime spins
 * Jackpots
 * Animations and sound bytes for:
-    -Jackpots
-    -Spinning
-    -Stopping?
-    -Prizes, be it money payout or like a flip to prime spins
+    <br>-Jackpots
+    <br>-Spinning
+    <br>-Stopping?
+    <br>-Prizes, be it money payout or like a flip to prime spins
 * UI to show:
-    -Money in
-    -Current bet
-    -Machine payout, ticking up both the payout and the money in as it does
-    -Line to display full payout, static
-    -A scrolling/fade in-out tooltips section for what symbols pay out ect
-    -Cash out button
-    -Perhaps a change game functionality?
-    -Lines in play if applicable, and bet per line if applicable
+   <br> -Money in
+    <br>-Current bet
+    <br>-Machine payout, ticking up both the payout and the money in as it does
+    <br>-Line to display full payout, static
+    <br>-A scrolling/fade in-out tooltips section for what symbols pay out ect
+    <br>-Cash out button
+    <br>-Perhaps a change game functionality?
+    <br>-Lines in play if applicable, and bet per line if applicable
 
 What symbols will be involved?
-    -15 can be displayed at a time
-    1) Otters
+    <br>-15 can be displayed at a time<br>
+    <br>1) Otters
         Jackpot
-    2) Cats
-    3) Moles
-    4) Vagabond
+    <br>2) Cats
+    <br>3) Moles
+    <br>4) Vagabond
         Spin for which on your get?
-    5) Birds
-    6) WA
+    <br>5) Birds
+    <br>6) WA
         Sticky wilds?
-    10) Corvids
+    <br>10) Corvids
         4-5 in a line, raid?
-    11) Lizards
+    <br>11) Lizards
         Blows up another symbol?
-    12) Ruins
+    <br>12) Ruins
         Three/ three in a row to explore, gives items
 
 Side game stuff:
