@@ -37,7 +37,7 @@ This will be a space to lay out the logistics while I'm working on this project
    <br>-Items are the bonus items dropped by the ruins, and are 'collected' on the side of the machine.</br>
    <br>-Sticky Wilds: the symbol lands and 'sticks' in that spot. When the slot is rolled again, it moved vertically one space down and if it moves off the board is gone.</br>
    <br>-Prime spins are discounted spins</br>
-   <br> -Picking game is a bonus game that lets you select something and gives you a prize off of it, typically payout is on average the same as what the spin would have been worth, example if the spin would have been calculated as 30 payout, the game averages a 30 payout. The base payout of the symbols doesn't matter when the game is complete, just a good way to calculate how much a bonus game should pay out.</br> 
+   <br> -Picking game is a bonus game that lets you select something and gives you a prize off of it, typically payout is on average the same as what the spin would have been worth, example if the spin would have been calculated as 30 payout, the game averages a 30 payout. The base payout of the symbols doesn't matter when the game is complete, just a good way to calculate how much a bonus game should pay out to keep the balance of the payout percentages.</br> 
 
 <!-- IDEALS -->
 ## Ideals
@@ -87,8 +87,11 @@ This will be a space to lay out the logistics while I'm working on this project
 
 <!-- QUESTIONS / THINGS TO SOLVE -->
 ## Questions
-    For ruins, when you get an item the first time should it pay out? Or do you just get the item?
-        I imagine it'd be a base for matching ruins and if you get a dupe it gives a small bonus, like 30 base +5 for dupe.
+   * For ruins, when you get an item the first time should it pay out? Or do you just get the item?
+        * I imagine it'd be a base for matching ruins and if you get a dupe it gives a small bonus, like 30 base +5 for dupe.
+   * How do we structure the if then?
+        * Maybe we could do a generic if then, saying ```if (symbol === symbol) then ...```
+   * 
 
 <!-- RESEARCH -->
 ## Research 
@@ -124,6 +127,8 @@ https://boardgamegeek.com/thread/2252658/share-your-assets-templates-variants
 
 -Picture for some factions png blank background source
 https://owenmcg.com/games/2020/01/22/root.html
+
+-Use the logic from this in the logic for the clicking into place, and perhaps in the way each tile on the board is referred to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- ROADMAP 
