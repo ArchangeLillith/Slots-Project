@@ -64,3 +64,24 @@ https://www.youtube.com/watch?v=JyIWQIdxaOA
 
 -Slots calculator from above vid, excel spreadsheet to calculate winning probs
 https://docs.google.com/spreadsheets/d/1beGMKgDcoQguu8ZhHphPO5DLq48bAbk-vfuTty1X0pg/edit#gid=605918202
+
+-Psychology of slots and gambling
+https://youtube.com/watch?v=Fpj43qwSmtg&feature=shares
+
+-More in depth psychology about the brain and it's reaction to slots, gambling addiciton covered here too
+https://youtube.com/watch?v=V6HwVzjFndg&feature=shares
+
+-Deep dive into psychology of gambling in a casino
+https://youtube.com/watch?v=X2G__MV8cIg&feature=shares
+
+-ROOT reference sheet for rules, maybe some use
+https://www.reddit.com/r/boardgames/comments/9c04sn/root_reference_sheet/
+
+-Free board game icons
+https://www.reddit.com/r/boardgames/comments/s1fbzt/ive_created_250_icons_for_board_game_designers_to/
+
+-ROOT font
+https://www.reddit.com/r/rootgame/comments/woqa75/comment/ikcgubg/
+
+-Some assets for ROOT
+https://boardgamegeek.com/thread/2252658/share-your-assets-templates-variants
