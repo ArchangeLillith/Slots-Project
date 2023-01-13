@@ -122,6 +122,9 @@ https://www.reddit.com/r/rootgame/comments/woqa75/comment/ikcgubg/
 -Some assets for ROOT
 https://boardgamegeek.com/thread/2252658/share-your-assets-templates-variants
 
+-Picture for some factions png blank background source
+https://owenmcg.com/games/2020/01/22/root.html
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- ROADMAP 
 ## Roadmap
