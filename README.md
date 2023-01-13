@@ -60,6 +60,7 @@ This will be a space to lay out the logistics while I'm working on this project
     <br>-Cash out button
     <br>-Perhaps a change game functionality?
     <br>-Lines in play if applicable, and bet per line if applicable
+* Sound design for a small win (% less than 100 of total bet), medium win (% to be decided upon), large win (% to be decided upon), and jackpot. Perhaps separate sounds for ruins pick me as well.
 
 <!-- SYMBOLS -->
 ## Symbols: 
@@ -91,7 +92,8 @@ This will be a space to lay out the logistics while I'm working on this project
         * I imagine it'd be a base for matching ruins and if you get a dupe it gives a small bonus, like 30 base +5 for dupe.
    * How do we structure the if then?
         * Maybe we could do a generic if then, saying ```if (symbol === symbol) then ...```
-   * 
+   * For prime spins, do we use a different set of reels?
+   * How do we handle symbol rarity?
 
 <!-- RESEARCH -->
 ## Research 
