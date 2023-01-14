@@ -33,11 +33,12 @@ This will be a space to lay out the logistics while I'm working on this project
 
 <!-- TERM CLARIFICATION -->
 ## Term Clarification
-   <br>-Symbols are the tiles on the reels of the slots</br> 
-   <br>-Items are the bonus items dropped by the ruins, and are 'collected' on the side of the machine.</br>
-   <br>-Sticky Wilds: the symbol lands and 'sticks' in that spot. When the slot is rolled again, it moved vertically one space down and if it moves off the board is gone.</br>
-   <br>-Prime spins are discounted spins</br>
+   <br> -Symbols are the tiles on the reels of the slots</br> 
+   <br> -Items are the bonus items dropped by the ruins, and are 'collected' on the side of the machine.</br>
+   <br> -Sticky Wilds: the symbol lands and 'sticks' in that spot. When the slot is rolled again, it moved vertically one space down and if it moves off the board is gone.</br>
+   <br> -Prime spins are discounted spins</br>
    <br> -Picking game is a bonus game that lets you select something and gives you a prize off of it, typically payout is on average the same as what the spin would have been worth, example if the spin would have been calculated as 30 payout, the game averages a 30 payout. The base payout of the symbols doesn't matter when the game is complete, just a good way to calculate how much a bonus game should pay out to keep the balance of the payout percentages.</br> 
+   <br> -Ruins items: Given by three/ three or more ruins, there are 4(?) slots to fill. Each item has a chance to drop, and if you get a dupe it gives you money instead.</br>
 
 <!-- IDEALS -->
 ## Ideals
@@ -66,7 +67,7 @@ This will be a space to lay out the logistics while I'm working on this project
 ## Symbols: 
 -15 can be displayed at a time
 1) Otters
-      Jackpot
+      Wilds
 2) Cats
 3) Moles
 4) Vagabond
@@ -80,11 +81,22 @@ This will be a space to lay out the logistics while I'm working on this project
      Blows up another symbol?
 12) Ruins
      Three/ three in a row to explore, gives items
+<!-- RUINS ITEMS -->
+## Ruins Items
+  * Anvil
+      * Changes one item, "crafts" it
+  * Sword
+  * Tea
+      * Refresh one item in your stock
+  * Boot
+  * Bag
+      * Can save a portion of the board
 
 <!-- SIDE GAME STUFF -->
 ## Side Game Stuff
-    Ruins items:
-        Given by three/ three or more ruins, there are 4(?) slots to fill. Each item has a chance to drop, and if you get a dupe it gives you money instead.
+   * A button on UI to swap games
+   * Use of the board, maybe winter/autumn themes?
+      * What would this change?
 
 <!-- QUESTIONS / THINGS TO SOLVE -->
 ## Questions
@@ -94,6 +106,7 @@ This will be a space to lay out the logistics while I'm working on this project
         * Maybe we could do a generic if then, saying ```if (symbol === symbol) then ...```
    * For prime spins, do we use a different set of reels?
    * How do we handle symbol rarity?
+      * We should do a flat rarity. Easier to handle, easier to build around for symbol distribution. Same with ruins items, but we can impliment a fluxuating rarity if so desire and test to see the feel.
 
 <!-- RESEARCH -->
 ## Research 
