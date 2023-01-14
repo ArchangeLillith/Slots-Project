@@ -1,7 +1,53 @@
+Skeleton of the logic 
+
+start by checking column 1 and 2 against each other:
+
+if (no equal){
+    if(!function checking for ruins){
+        dead run 
+    }
+    else{
+        [algorithm trigger]
+    }
+}
+
+this necessitates:
+function intitialColumnCheck()
+function doRuinsExist()
+
+Main algorithm
+
+What problem are we solving?
+* Checking to calculate matches
+* Ruins check
+* What symbols are matching?
+* Are the symbols in a winning position
+    -Accounting for otters:
+    (symbol == symbol ||
+    symbol == otter)
+* How do we decide where to check?
+* If symbols match and are in position to ScreenOrientation, what symbols are they (blacklist ruins in this as we have already checked that and we can store a variable from when we did saving where in the array they are and to ignore those)
+* Turn off mousedown events while the algorithm is running so no janky stuff can happen 
+
+Scoring:
+* Passed values from checking algorithm
+* Values include
+    -Ruins items 
+    -Money 
+    -Stats 
+* For ruins, state management for (none)/(avaliable)/(exhausted)
+    -Different visuals and sounds for each state change
+* Money += (variable passed in from checking algorithm)
+* Stats can be passed straight into stats.js from the main loop as things are calculated
+    -Example, [crows += variable passed in from scoring loop] before loop variable is added to the cumulative variable that will be added into global MONEY variable
+ 
+
+
+
 global variables
 
 
-Function needed: 
+Functions needed: 
 
 main function 
     get canvas here 
