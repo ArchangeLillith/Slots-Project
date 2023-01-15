@@ -21,7 +21,7 @@ let MONEY = 0;
 let BET = 40;
 let RUINS = [];
 
-// *--------------------FUNCTIONS---------------------*
+// *--------------------FUNCTIONS IN PROGRESS---------------------*
 main function 
     get canvas here 
 
@@ -52,3 +52,35 @@ This would be a good way to handle the end of the spin if modified to fit our pu
     see the nested if then and how it uses different methods and gets the answers
 
 
+// *--------------------START OF THE REAL CODE---------------------*
+window.addEventListener('load', function(){
+    const CANVAS = document.getElementById('canvas1');
+    const CTX = CANVAS.getContext('2d');
+    CANVAS.width = 500;
+    CANVAS.height = 500;
+    
+    class Game {
+        constructor (width, height){
+            this.width = width;
+            this.height = height;
+            this.UI = new UI(this);
+            this.gameOver = false;
+        }
+        draw(context){
+            this.UI.draw(context);
+        }
+    }
+    
+    const game = new Game(CANVAS.width, CANVAS.height);
+
+    function animate(timeStamp){
+        const deltaTime = timeStamp - lastTime;
+        lastTime = timeStamp;
+        CTX.clearRect(0, 0, CANVAS.width, CANVAS.height)
+        game.draw(CTX);
+        game.update(deltaTime);
+        requestAnimationFrame(animate);
+    }
+    //Calling the game the first time
+    animate(0);
+});
