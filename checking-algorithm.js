@@ -3,12 +3,14 @@ function initialColumnCheck(symbol){
     //if the symbol does not match any other, and if it does not match any wilds (otters)
     if (symbol !== symbol ||
         symbol !== otter){
-        //and if there aren't three ruins, there are no scoring matches on the board
-        if(!checkingForRuins()){
-            console.log('dead run');
+            //but there ARE ruins then we run ONLY the ruins algorithm
+        if(checkingForRuins()){
+            console.log('trigger for ruins algorithm');
         }
+        //and if there aren't three ruins, there are no scoring matches on the board
         else{
-            [algorithm trigger]
+            console.log('not a winner :(');
+            
         }
     }
 }
