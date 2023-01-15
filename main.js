@@ -1,6 +1,6 @@
 Skeleton of the logic 
 
-start by checking column 1 and 2 against each other:
+Start by checking column 1 and 2 against each other:
 
 if (no equal){
     if(!function checking for ruins){
@@ -11,12 +11,20 @@ if (no equal){
     }
 }
 
-this necessitates:
+This necessitates:
 function intitialColumnCheck()
 function doRuinsExist()
 
-Main algorithm
+How do we want files split apart? 
+* Checking algorithm 
+* Scoring algorithm
+* UI 
+* Setup and requestAnimationFrame plus global variables
+* Stats dump file
 
+
+
+--Checking algorithm--
 What problem are we solving?
 * Checking to calculate matches
 * Ruins check
@@ -40,12 +48,12 @@ Scoring:
 * Money += (variable passed in from checking algorithm)
 * Stats can be passed straight into stats.js from the main loop as things are calculated
     -Example, [crows += variable passed in from scoring loop] before loop variable is added to the cumulative variable that will be added into global MONEY variable
- 
 
 
-
-global variables
-
+//Global variables
+let MONEY = 0;
+let BET = 40;
+let RUINS = [];
 
 Functions needed: 
 
